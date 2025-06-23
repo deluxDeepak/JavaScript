@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroTalk</title>
+    <link rel="stylesheet" href="./astro.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AstroTalk</h1>
+        <form id="form_data">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name" name="Name" required>
+                <label for="name">Your Surname:</label>
+                <input type="text" id="surname" placeholder="Enter Your Surname" name="Surname" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date</label>
+                <input type="number" id="date" min="1" max="31" placeholder="DD" name="Date" required>
+                <label for="dob">Month:</label>
+                <input type="number" id="month" min="1" max="12" placeholder="MM" name="month" required>
+                <label for="dob">Year</label>
+                <input type="number" id="year" min="1990" max="2025" placeholder="YYYY" name="year" required>
+            </div>
+            <button type="submit">Get Reading</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="./astro.js"></script>
+
+</body>
+
+</html>

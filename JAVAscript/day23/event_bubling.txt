@@ -1,0 +1,5 @@
+Event Bubling :-jaha cllick karenge wo pehle chaelga fir oske parent ke taraf jayega 
+order :-Child>parent>grandparent 
+
+
+Event capturing :-Ulta hoga Bubling ka 

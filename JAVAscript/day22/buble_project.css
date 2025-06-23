@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circle {
+
+    /* Appne parent ke accorfding position set karega  */
+    position: absolute;
+    
+    background-color: rgb(125, 90, 45);
+    width: 50px;
+    height: 50px;
+
+    /* circle form ho gya  */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text color  */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    opacity: 1;
+    overflow: hidden;
+    animation: grow 5s forwards;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        font-size: 10px;
+
+    }
+
+    100% {
+        transform: scale(3);
+        opacity: 0;
+        font-size: 40px;
+
+    }
+}

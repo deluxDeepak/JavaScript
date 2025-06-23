@@ -1,0 +1,1 @@
+// Hoisting (decalre variable at the top )
